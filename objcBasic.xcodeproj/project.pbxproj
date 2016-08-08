@@ -7,9 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE640A7F1D58278100652BAC /* objcBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = FE640A7E1D58278100652BAC /* objcBasic.h */; };
+		FE640A7F1D58278100652BAC /* objcBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = FE640A7E1D58278100652BAC /* objcBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE640A861D58278200652BAC /* objcBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640A7B1D58278100652BAC /* objcBasic.framework */; };
 		FE640A8B1D58278200652BAC /* objcBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE640A8A1D58278200652BAC /* objcBasicTests.m */; };
+		FE640A981D5827A300652BAC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = FE640A951D5827A300652BAC /* Cartfile */; };
+		FE640A991D5827A300652BAC /* objcBasic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FE640A961D5827A300652BAC /* objcBasic.podspec */; };
+		FE640B391D585E0100652BAC /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B0F1D585E0100652BAC /* CocoaAsyncSocket.framework */; };
+		FE640B3A1D585E0100652BAC /* objcApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B101D585E0100652BAC /* objcApplication.framework */; };
+		FE640B3B1D585E0100652BAC /* objcArray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B111D585E0100652BAC /* objcArray.framework */; };
+		FE640B3C1D585E0100652BAC /* objcBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B121D585E0100652BAC /* objcBlock.framework */; };
+		FE640B3D1D585E0100652BAC /* objcCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B131D585E0100652BAC /* objcCollectionView.framework */; };
+		FE640B3E1D585E0100652BAC /* objcColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B141D585E0100652BAC /* objcColor.framework */; };
+		FE640B3F1D585E0100652BAC /* objcDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B151D585E0100652BAC /* objcDate.framework */; };
+		FE640B401D585E0100652BAC /* objcDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B161D585E0100652BAC /* objcDevice.framework */; };
+		FE640B411D585E0100652BAC /* objcDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B171D585E0100652BAC /* objcDictionary.framework */; };
+		FE640B421D585E0100652BAC /* objcFingerPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B181D585E0100652BAC /* objcFingerPrint.framework */; };
+		FE640B431D585E0100652BAC /* objcFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B191D585E0100652BAC /* objcFlow.framework */; };
+		FE640B441D585E0100652BAC /* objcFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B1A1D585E0100652BAC /* objcFont.framework */; };
+		FE640B451D585E0100652BAC /* objcHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B1B1D585E0100652BAC /* objcHook.framework */; };
+		FE640B461D585E0100652BAC /* objcHud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B1C1D585E0100652BAC /* objcHud.framework */; };
+		FE640B471D585E0100652BAC /* objcImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B1D1D585E0100652BAC /* objcImage.framework */; };
+		FE640B481D585E0100652BAC /* objcInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B1E1D585E0100652BAC /* objcInput.framework */; };
+		FE640B491D585E0100652BAC /* objcJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B1F1D585E0100652BAC /* objcJson.framework */; };
+		FE640B4A1D585E0100652BAC /* objcKeyPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B201D585E0100652BAC /* objcKeyPath.framework */; };
+		FE640B4B1D585E0100652BAC /* objcKVO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B211D585E0100652BAC /* objcKVO.framework */; };
+		FE640B4C1D585E0100652BAC /* objcLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B221D585E0100652BAC /* objcLabel.framework */; };
+		FE640B4D1D585E0100652BAC /* objcLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B231D585E0100652BAC /* objcLayer.framework */; };
+		FE640B4E1D585E0100652BAC /* objcLoading.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B241D585E0100652BAC /* objcLoading.framework */; };
+		FE640B4F1D585E0100652BAC /* objcLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B251D585E0100652BAC /* objcLog.framework */; };
+		FE640B501D585E0100652BAC /* objcMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B261D585E0100652BAC /* objcMath.framework */; };
+		FE640B511D585E0100652BAC /* objcNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B271D585E0100652BAC /* objcNotificationCenter.framework */; };
+		FE640B521D585E0100652BAC /* objcObject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B281D585E0100652BAC /* objcObject.framework */; };
+		FE640B531D585E0100652BAC /* objcProperty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B291D585E0100652BAC /* objcProperty.framework */; };
+		FE640B541D585E0100652BAC /* objcPullRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B2A1D585E0100652BAC /* objcPullRefresh.framework */; };
+		FE640B551D585E0100652BAC /* objcRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B2B1D585E0100652BAC /* objcRouter.framework */; };
+		FE640B561D585E0100652BAC /* objcScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B2C1D585E0100652BAC /* objcScrollView.framework */; };
+		FE640B571D585E0100652BAC /* objcSelectorArgument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B2D1D585E0100652BAC /* objcSelectorArgument.framework */; };
+		FE640B581D585E0100652BAC /* objcSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B2E1D585E0100652BAC /* objcSlider.framework */; };
+		FE640B591D585E0100652BAC /* objcSocketClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B2F1D585E0100652BAC /* objcSocketClient.framework */; };
+		FE640B5A1D585E0100652BAC /* objcString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B301D585E0100652BAC /* objcString.framework */; };
+		FE640B5B1D585E0100652BAC /* objcTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B311D585E0100652BAC /* objcTableView.framework */; };
+		FE640B5C1D585E0100652BAC /* objcTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B321D585E0100652BAC /* objcTheme.framework */; };
+		FE640B5D1D585E0100652BAC /* objcTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B331D585E0100652BAC /* objcTimer.framework */; };
+		FE640B5E1D585E0100652BAC /* objcUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B341D585E0100652BAC /* objcUserDefaults.framework */; };
+		FE640B5F1D585E0100652BAC /* objcView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B351D585E0100652BAC /* objcView.framework */; };
+		FE640B601D585E0100652BAC /* objcViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B361D585E0100652BAC /* objcViewController.framework */; };
+		FE640B611D585E0100652BAC /* objcWeakRef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B371D585E0100652BAC /* objcWeakRef.framework */; };
+		FE640B621D585E0100652BAC /* objcWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE640B381D585E0100652BAC /* objcWindow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +73,51 @@
 		FE640A851D58278200652BAC /* objcBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objcBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE640A8A1D58278200652BAC /* objcBasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcBasicTests.m; sourceTree = "<group>"; };
 		FE640A8C1D58278200652BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE640A951D5827A300652BAC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		FE640A961D5827A300652BAC /* objcBasic.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objcBasic.podspec; sourceTree = "<group>"; };
+		FE640A971D5827A300652BAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE640B0F1D585E0100652BAC /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		FE640B101D585E0100652BAC /* objcApplication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcApplication.framework; path = Carthage/Build/iOS/objcApplication.framework; sourceTree = "<group>"; };
+		FE640B111D585E0100652BAC /* objcArray.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcArray.framework; path = Carthage/Build/iOS/objcArray.framework; sourceTree = "<group>"; };
+		FE640B121D585E0100652BAC /* objcBlock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcBlock.framework; path = Carthage/Build/iOS/objcBlock.framework; sourceTree = "<group>"; };
+		FE640B131D585E0100652BAC /* objcCollectionView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcCollectionView.framework; path = Carthage/Build/iOS/objcCollectionView.framework; sourceTree = "<group>"; };
+		FE640B141D585E0100652BAC /* objcColor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcColor.framework; path = Carthage/Build/iOS/objcColor.framework; sourceTree = "<group>"; };
+		FE640B151D585E0100652BAC /* objcDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcDate.framework; path = Carthage/Build/iOS/objcDate.framework; sourceTree = "<group>"; };
+		FE640B161D585E0100652BAC /* objcDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcDevice.framework; path = Carthage/Build/iOS/objcDevice.framework; sourceTree = "<group>"; };
+		FE640B171D585E0100652BAC /* objcDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcDictionary.framework; path = Carthage/Build/iOS/objcDictionary.framework; sourceTree = "<group>"; };
+		FE640B181D585E0100652BAC /* objcFingerPrint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcFingerPrint.framework; path = Carthage/Build/iOS/objcFingerPrint.framework; sourceTree = "<group>"; };
+		FE640B191D585E0100652BAC /* objcFlow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcFlow.framework; path = Carthage/Build/iOS/objcFlow.framework; sourceTree = "<group>"; };
+		FE640B1A1D585E0100652BAC /* objcFont.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcFont.framework; path = Carthage/Build/iOS/objcFont.framework; sourceTree = "<group>"; };
+		FE640B1B1D585E0100652BAC /* objcHook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcHook.framework; path = Carthage/Build/iOS/objcHook.framework; sourceTree = "<group>"; };
+		FE640B1C1D585E0100652BAC /* objcHud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcHud.framework; path = Carthage/Build/iOS/objcHud.framework; sourceTree = "<group>"; };
+		FE640B1D1D585E0100652BAC /* objcImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcImage.framework; path = Carthage/Build/iOS/objcImage.framework; sourceTree = "<group>"; };
+		FE640B1E1D585E0100652BAC /* objcInput.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcInput.framework; path = Carthage/Build/iOS/objcInput.framework; sourceTree = "<group>"; };
+		FE640B1F1D585E0100652BAC /* objcJson.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcJson.framework; path = Carthage/Build/iOS/objcJson.framework; sourceTree = "<group>"; };
+		FE640B201D585E0100652BAC /* objcKeyPath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcKeyPath.framework; path = Carthage/Build/iOS/objcKeyPath.framework; sourceTree = "<group>"; };
+		FE640B211D585E0100652BAC /* objcKVO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcKVO.framework; path = Carthage/Build/iOS/objcKVO.framework; sourceTree = "<group>"; };
+		FE640B221D585E0100652BAC /* objcLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcLabel.framework; path = Carthage/Build/iOS/objcLabel.framework; sourceTree = "<group>"; };
+		FE640B231D585E0100652BAC /* objcLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcLayer.framework; path = Carthage/Build/iOS/objcLayer.framework; sourceTree = "<group>"; };
+		FE640B241D585E0100652BAC /* objcLoading.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcLoading.framework; path = Carthage/Build/iOS/objcLoading.framework; sourceTree = "<group>"; };
+		FE640B251D585E0100652BAC /* objcLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcLog.framework; path = Carthage/Build/iOS/objcLog.framework; sourceTree = "<group>"; };
+		FE640B261D585E0100652BAC /* objcMath.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcMath.framework; path = Carthage/Build/iOS/objcMath.framework; sourceTree = "<group>"; };
+		FE640B271D585E0100652BAC /* objcNotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcNotificationCenter.framework; path = Carthage/Build/iOS/objcNotificationCenter.framework; sourceTree = "<group>"; };
+		FE640B281D585E0100652BAC /* objcObject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcObject.framework; path = Carthage/Build/iOS/objcObject.framework; sourceTree = "<group>"; };
+		FE640B291D585E0100652BAC /* objcProperty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcProperty.framework; path = Carthage/Build/iOS/objcProperty.framework; sourceTree = "<group>"; };
+		FE640B2A1D585E0100652BAC /* objcPullRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcPullRefresh.framework; path = Carthage/Build/iOS/objcPullRefresh.framework; sourceTree = "<group>"; };
+		FE640B2B1D585E0100652BAC /* objcRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcRouter.framework; path = Carthage/Build/iOS/objcRouter.framework; sourceTree = "<group>"; };
+		FE640B2C1D585E0100652BAC /* objcScrollView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcScrollView.framework; path = Carthage/Build/iOS/objcScrollView.framework; sourceTree = "<group>"; };
+		FE640B2D1D585E0100652BAC /* objcSelectorArgument.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcSelectorArgument.framework; path = Carthage/Build/iOS/objcSelectorArgument.framework; sourceTree = "<group>"; };
+		FE640B2E1D585E0100652BAC /* objcSlider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcSlider.framework; path = Carthage/Build/iOS/objcSlider.framework; sourceTree = "<group>"; };
+		FE640B2F1D585E0100652BAC /* objcSocketClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcSocketClient.framework; path = Carthage/Build/iOS/objcSocketClient.framework; sourceTree = "<group>"; };
+		FE640B301D585E0100652BAC /* objcString.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcString.framework; path = Carthage/Build/iOS/objcString.framework; sourceTree = "<group>"; };
+		FE640B311D585E0100652BAC /* objcTableView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcTableView.framework; path = Carthage/Build/iOS/objcTableView.framework; sourceTree = "<group>"; };
+		FE640B321D585E0100652BAC /* objcTheme.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcTheme.framework; path = Carthage/Build/iOS/objcTheme.framework; sourceTree = "<group>"; };
+		FE640B331D585E0100652BAC /* objcTimer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcTimer.framework; path = Carthage/Build/iOS/objcTimer.framework; sourceTree = "<group>"; };
+		FE640B341D585E0100652BAC /* objcUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcUserDefaults.framework; path = Carthage/Build/iOS/objcUserDefaults.framework; sourceTree = "<group>"; };
+		FE640B351D585E0100652BAC /* objcView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcView.framework; path = Carthage/Build/iOS/objcView.framework; sourceTree = "<group>"; };
+		FE640B361D585E0100652BAC /* objcViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcViewController.framework; path = Carthage/Build/iOS/objcViewController.framework; sourceTree = "<group>"; };
+		FE640B371D585E0100652BAC /* objcWeakRef.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcWeakRef.framework; path = Carthage/Build/iOS/objcWeakRef.framework; sourceTree = "<group>"; };
+		FE640B381D585E0100652BAC /* objcWindow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = objcWindow.framework; path = Carthage/Build/iOS/objcWindow.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +125,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE640B391D585E0100652BAC /* CocoaAsyncSocket.framework in Frameworks */,
+				FE640B3A1D585E0100652BAC /* objcApplication.framework in Frameworks */,
+				FE640B3B1D585E0100652BAC /* objcArray.framework in Frameworks */,
+				FE640B3C1D585E0100652BAC /* objcBlock.framework in Frameworks */,
+				FE640B3D1D585E0100652BAC /* objcCollectionView.framework in Frameworks */,
+				FE640B3E1D585E0100652BAC /* objcColor.framework in Frameworks */,
+				FE640B3F1D585E0100652BAC /* objcDate.framework in Frameworks */,
+				FE640B401D585E0100652BAC /* objcDevice.framework in Frameworks */,
+				FE640B411D585E0100652BAC /* objcDictionary.framework in Frameworks */,
+				FE640B421D585E0100652BAC /* objcFingerPrint.framework in Frameworks */,
+				FE640B431D585E0100652BAC /* objcFlow.framework in Frameworks */,
+				FE640B441D585E0100652BAC /* objcFont.framework in Frameworks */,
+				FE640B451D585E0100652BAC /* objcHook.framework in Frameworks */,
+				FE640B461D585E0100652BAC /* objcHud.framework in Frameworks */,
+				FE640B471D585E0100652BAC /* objcImage.framework in Frameworks */,
+				FE640B481D585E0100652BAC /* objcInput.framework in Frameworks */,
+				FE640B491D585E0100652BAC /* objcJson.framework in Frameworks */,
+				FE640B4A1D585E0100652BAC /* objcKeyPath.framework in Frameworks */,
+				FE640B4B1D585E0100652BAC /* objcKVO.framework in Frameworks */,
+				FE640B4C1D585E0100652BAC /* objcLabel.framework in Frameworks */,
+				FE640B4D1D585E0100652BAC /* objcLayer.framework in Frameworks */,
+				FE640B4E1D585E0100652BAC /* objcLoading.framework in Frameworks */,
+				FE640B4F1D585E0100652BAC /* objcLog.framework in Frameworks */,
+				FE640B501D585E0100652BAC /* objcMath.framework in Frameworks */,
+				FE640B511D585E0100652BAC /* objcNotificationCenter.framework in Frameworks */,
+				FE640B521D585E0100652BAC /* objcObject.framework in Frameworks */,
+				FE640B531D585E0100652BAC /* objcProperty.framework in Frameworks */,
+				FE640B541D585E0100652BAC /* objcPullRefresh.framework in Frameworks */,
+				FE640B551D585E0100652BAC /* objcRouter.framework in Frameworks */,
+				FE640B561D585E0100652BAC /* objcScrollView.framework in Frameworks */,
+				FE640B571D585E0100652BAC /* objcSelectorArgument.framework in Frameworks */,
+				FE640B581D585E0100652BAC /* objcSlider.framework in Frameworks */,
+				FE640B591D585E0100652BAC /* objcSocketClient.framework in Frameworks */,
+				FE640B5A1D585E0100652BAC /* objcString.framework in Frameworks */,
+				FE640B5B1D585E0100652BAC /* objcTableView.framework in Frameworks */,
+				FE640B5C1D585E0100652BAC /* objcTheme.framework in Frameworks */,
+				FE640B5D1D585E0100652BAC /* objcTimer.framework in Frameworks */,
+				FE640B5E1D585E0100652BAC /* objcUserDefaults.framework in Frameworks */,
+				FE640B5F1D585E0100652BAC /* objcView.framework in Frameworks */,
+				FE640B601D585E0100652BAC /* objcViewController.framework in Frameworks */,
+				FE640B611D585E0100652BAC /* objcWeakRef.framework in Frameworks */,
+				FE640B621D585E0100652BAC /* objcWindow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +184,54 @@
 		FE640A711D58278100652BAC = {
 			isa = PBXGroup;
 			children = (
+				FE640B0F1D585E0100652BAC /* CocoaAsyncSocket.framework */,
+				FE640B101D585E0100652BAC /* objcApplication.framework */,
+				FE640B111D585E0100652BAC /* objcArray.framework */,
+				FE640B121D585E0100652BAC /* objcBlock.framework */,
+				FE640B131D585E0100652BAC /* objcCollectionView.framework */,
+				FE640B141D585E0100652BAC /* objcColor.framework */,
+				FE640B151D585E0100652BAC /* objcDate.framework */,
+				FE640B161D585E0100652BAC /* objcDevice.framework */,
+				FE640B171D585E0100652BAC /* objcDictionary.framework */,
+				FE640B181D585E0100652BAC /* objcFingerPrint.framework */,
+				FE640B191D585E0100652BAC /* objcFlow.framework */,
+				FE640B1A1D585E0100652BAC /* objcFont.framework */,
+				FE640B1B1D585E0100652BAC /* objcHook.framework */,
+				FE640B1C1D585E0100652BAC /* objcHud.framework */,
+				FE640B1D1D585E0100652BAC /* objcImage.framework */,
+				FE640B1E1D585E0100652BAC /* objcInput.framework */,
+				FE640B1F1D585E0100652BAC /* objcJson.framework */,
+				FE640B201D585E0100652BAC /* objcKeyPath.framework */,
+				FE640B211D585E0100652BAC /* objcKVO.framework */,
+				FE640B221D585E0100652BAC /* objcLabel.framework */,
+				FE640B231D585E0100652BAC /* objcLayer.framework */,
+				FE640B241D585E0100652BAC /* objcLoading.framework */,
+				FE640B251D585E0100652BAC /* objcLog.framework */,
+				FE640B261D585E0100652BAC /* objcMath.framework */,
+				FE640B271D585E0100652BAC /* objcNotificationCenter.framework */,
+				FE640B281D585E0100652BAC /* objcObject.framework */,
+				FE640B291D585E0100652BAC /* objcProperty.framework */,
+				FE640B2A1D585E0100652BAC /* objcPullRefresh.framework */,
+				FE640B2B1D585E0100652BAC /* objcRouter.framework */,
+				FE640B2C1D585E0100652BAC /* objcScrollView.framework */,
+				FE640B2D1D585E0100652BAC /* objcSelectorArgument.framework */,
+				FE640B2E1D585E0100652BAC /* objcSlider.framework */,
+				FE640B2F1D585E0100652BAC /* objcSocketClient.framework */,
+				FE640B301D585E0100652BAC /* objcString.framework */,
+				FE640B311D585E0100652BAC /* objcTableView.framework */,
+				FE640B321D585E0100652BAC /* objcTheme.framework */,
+				FE640B331D585E0100652BAC /* objcTimer.framework */,
+				FE640B341D585E0100652BAC /* objcUserDefaults.framework */,
+				FE640B351D585E0100652BAC /* objcView.framework */,
+				FE640B361D585E0100652BAC /* objcViewController.framework */,
+				FE640B371D585E0100652BAC /* objcWeakRef.framework */,
+				FE640B381D585E0100652BAC /* objcWindow.framework */,
 				FE640A7D1D58278100652BAC /* objcBasic */,
 				FE640A891D58278200652BAC /* objcBasicTests */,
 				FE640A7C1D58278100652BAC /* Products */,
+				FE640A951D5827A300652BAC /* Cartfile */,
+				FE640A961D5827A300652BAC /* objcBasic.podspec */,
+				FE640A971D5827A300652BAC /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +354,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE640A991D5827A300652BAC /* objcBasic.podspec in Resources */,
+				FE640A981D5827A300652BAC /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +492,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = objcBasic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -330,6 +512,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = objcBasic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
