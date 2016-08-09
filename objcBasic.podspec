@@ -37,6 +37,7 @@ Pod::Spec.new do |s|
   s.dependency 'objcBlock'
   s.dependency 'objcCollectionView'
   s.dependency 'objcColor'
+  s.dependency 'objcData'
   s.dependency 'objcDate'
   s.dependency 'objcDevice'
   s.dependency 'objcDictionary'

@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char objcBasicVersionString[];
 #import <objcBlock/objcBlock.h>
 #import <objcCollectionView/objcCollectionView.h>
 #import <objcColor/objcColor.h>
+#import <objcData/objcData.h>
 #import <objcDate/objcDate.h>
 #import <objcDevice/objcDevice.h>
 #import <objcDictionary/objcDictionary.h>
