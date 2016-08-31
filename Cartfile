@@ -40,4 +40,4 @@ github "vilyever/objcLoading" == 1.1.0
 github "vilyever/objcPullRefresh" == 1.1.0
 github "vilyever/objcRouter" == 1.1.0
 github "vilyever/objcTheme" == 1.1.0
-github "vilyever/objcSocketClient" == 1.1.0
+github "vilyever/objcSocketClient" == 1.2.0
