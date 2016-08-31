@@ -1,43 +1,43 @@
-github "vilyever/objcApplication" "master"
-github "vilyever/objcArray" "master"
-github "vilyever/objcBlock" "master"
-github "vilyever/objcCollectionView" "master"
-github "vilyever/objcColor" "master"
-github "vilyever/objcData" "master"
-github "vilyever/objcDate" "master"
-github "vilyever/objcDevice" "master"
-github "vilyever/objcDictionary" "master"
-github "vilyever/objcFont" "master"
-github "vilyever/objcHook" "master"
-github "vilyever/objcImage" "master"
-github "vilyever/objcJson" "master"
-github "vilyever/objcKeyPath" "master"
-github "vilyever/objcKVO" "master"
-github "vilyever/objcLabel" "master"
-github "vilyever/objcLayer" "master"
-github "vilyever/objcLog" "master"
-github "vilyever/objcMath" "master"
-github "vilyever/objcNotificationCenter" "master"
-github "vilyever/objcObject" "master"
-github "vilyever/objcProperty" "master"
-github "vilyever/objcScrollView" "master"
-github "vilyever/objcSelectorArgument" "master"
-github "vilyever/objcSlider" "master"
-github "vilyever/objcString" "master"
-github "vilyever/objcTableView" "master"
-github "vilyever/objcTimer" "master"
-github "vilyever/objcUserDefaults" "master"
-github "vilyever/objcView" "master"
-github "vilyever/objcViewController" "master"
-github "vilyever/objcWeakRef" "master"
-github "vilyever/objcWindow" "master"
+github "vilyever/objcApplication" == 1.1.0
+github "vilyever/objcArray" == 1.1.0
+github "vilyever/objcBlock" == 1.1.0
+github "vilyever/objcCollectionView" == 1.1.0
+github "vilyever/objcColor" == 1.1.0
+github "vilyever/objcData" == 1.1.0
+github "vilyever/objcDate" == 1.1.0
+github "vilyever/objcDevice" == 1.1.0
+github "vilyever/objcDictionary" == 1.1.0
+github "vilyever/objcFont" == 1.1.0
+github "vilyever/objcHook" == 1.1.0
+github "vilyever/objcImage" == 1.1.0
+github "vilyever/objcJson" == 1.1.0
+github "vilyever/objcKeyPath" == 1.1.0
+github "vilyever/objcKVO" == 1.1.0
+github "vilyever/objcLabel" == 1.1.0
+github "vilyever/objcLayer" == 1.1.0
+github "vilyever/objcLog" == 1.1.0
+github "vilyever/objcMath" == 1.1.0
+github "vilyever/objcNotificationCenter" == 1.1.0
+github "vilyever/objcObject" == 1.1.0
+github "vilyever/objcProperty" == 1.1.0
+github "vilyever/objcScrollView" == 1.1.0
+github "vilyever/objcSelectorArgument" == 1.1.0
+github "vilyever/objcSlider" == 1.1.0
+github "vilyever/objcString" == 1.1.0
+github "vilyever/objcTableView" == 1.1.0
+github "vilyever/objcTimer" == 1.1.0
+github "vilyever/objcUserDefaults" == 1.1.0
+github "vilyever/objcView" == 1.1.0
+github "vilyever/objcViewController" == 1.1.0
+github "vilyever/objcWeakRef" == 1.1.0
+github "vilyever/objcWindow" == 1.1.0
 
-github "vilyever/objcFingerPrint" "master"
-github "vilyever/objcFlow" "master"
-github "vilyever/objcHud" "master"
-github "vilyever/objcInput" "master"
-github "vilyever/objcLoading" "master"
-github "vilyever/objcPullRefresh" "master"
-github "vilyever/objcRouter" "master"
-github "vilyever/objcTheme" "master"
-github "vilyever/objcSocketClient" "master"
+github "vilyever/objcFingerPrint" == 1.1.0
+github "vilyever/objcFlow" == 1.1.0
+github "vilyever/objcHud" == 1.1.0
+github "vilyever/objcInput" == 1.1.0
+github "vilyever/objcLoading" == 1.1.0
+github "vilyever/objcPullRefresh" == 1.1.0
+github "vilyever/objcRouter" == 1.1.0
+github "vilyever/objcTheme" == 1.1.0
+github "vilyever/objcSocketClient" == 1.1.0
