@@ -35,7 +35,6 @@ FOUNDATION_EXPORT const unsigned char objcBasicVersionString[];
 #import <objcJson/objcJson.h>
 #import <objcKeyPath/objcKeyPath.h>
 #import <objcKVO/objcKVO.h>
-#import <objcLabel/objcLabel.h>
 #import <objcLayer/objcLayer.h>
 #import <objcLoading/objcLoading.h>
 #import <objcLog/objcLog.h>
